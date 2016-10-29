@@ -1,0 +1,15 @@
+{
+  "CHANGELOG": "e8e58ded5d03d0f5a333daa4c747805c",
+  "Gemfile": "cc73c011bf499756dc6c0b3a238db90c",
+  "LICENSE": "48b21697598f50d0adc57dce30ed2f77",
+  "README.md": "b4ff0f47c356cbaf29df20dd01eb21b9",
+  "Rakefile": "d841d4d9d5ed6dc8a9ea9747e3df1137",
+  "manifests/init.pp": "b2e6d31d182496634cbd7b1fcc419ab9",
+  "manifests/params.pp": "40dd5116cc0d9b46cf9c09556b4983f5",
+  "manifests/service.pp": "655256de4c200a77b7592ac7ce23c2c1",
+  "metadata.json": "70b6aa89762d220050ac374c64022393",
+  "spec/classes/ioncubeloader_init_spec.rb": "4f7a60cc35c875ba58be569ccfeee27f",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "tests/init.pp": "95e7e3a632f8d10c7b7e5c969c0c9b3d"
+}
