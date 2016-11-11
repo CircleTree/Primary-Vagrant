@@ -11,6 +11,8 @@ class { '::php':
     mbstring     => { },
     mcrypt       => { },
     redis        => { },
+    zip          => { },
+    net_ftp      => { provider        => 'pear'},
     xdebug       => {
       zend            => true,
       provider        => 'pecl',

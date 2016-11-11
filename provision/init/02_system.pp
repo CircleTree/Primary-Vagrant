@@ -32,6 +32,10 @@ package { 'graphviz' :
   ensure => 'installed'
 }
 
+package { 'java-package' :
+  ensure => 'installed'
+}
+
 class { 'ohmyzsh': }
 
 ohmyzsh::install { 'vagrant': }
