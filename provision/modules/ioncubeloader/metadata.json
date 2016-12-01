@@ -1,0 +1,53 @@
+{
+  "name": "golja-ioncubeloader",
+  "version": "0.1.2",
+  "author": "golja",
+  "summary": "Ioncube loader support for php",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/n1tr0g/golja-ioncubeloader.git",
+  "project_page": "https://github.com/n1tr0g/golja-ioncubeloader/",
+  "issues_url": "https://github.com/n1tr0g/golja-ioncubeloader/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=2.7.0 <4.0.0"
+    }
+  ],
+  "dependencies": [
+  
+  ]
+}
