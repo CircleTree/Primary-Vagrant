@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
 	config.vm.provider :virtualbox do |v|
 		v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 		v.customize ["modifyvm", :id, "--memory", 1024]
-		v.customize ["modifyvm", :id, "--name", "Primary Vagrant"]
+		v.customize ["modifyvm", :id, "--name", "PV Part Deux"]
 		v.customize ["modifyvm", :id, "--cpus", 1]
 		v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
 
