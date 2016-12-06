@@ -4,7 +4,7 @@
 <?php endif; ?>
 <html>
 <head>
-	<title>Primary Vagrant</title>
+	<title>CT PV</title>
 </head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
@@ -25,21 +25,23 @@
 <body>
 <div class="container">
 
-	<div class="jumbotron">
-		<h1>Welcome to Circle Tree's Primary Vagrant</h1>
+		<div class="jumbotron">
+			<h2>Welcome to Circle Tree's Primary Vagrant</h2>
+		</div>
+
+	<div class="col-md-12">
+
+		<h2>Our dev site(s)</h2>
+		<ul>
+			<li>
+				<a href="http://mycircletree.pv/" target="_blank">mycircletree.pv</a>
+			</li>
+			<li>
+				<a href="http://ccu.pv/" target="_blank">ccu.pv</a>
+			</li>
+
+		</ul>
 	</div>
-
-
-	<h2>Our dev site(s)</h2>
-	<ul>
-		<li>
-			<a href="http://mycircletree.pv/" target="_blank">mycircletree.pv</a>
-		</li>
-		<li>
-			<a href="http://ccu.pv/" target="_blank">ccu.pv</a>
-		</li>
-
-	</ul>
 
 	<div class="col-md-6">
 
@@ -48,14 +50,14 @@
 		<ul>
 			<li><a href="?info">PHPInfo()</a></li>
 			<li><a href="http://phpmyadmin.pv"
-						 target="_blank">Manage MySQL with phpMyAdmin</a></li>
+						 target="_blank">phpMyAdmin</a></li>
 			<li><a href="http://replacedb.pv"
-						 target="_blank">Easily Search and Replace MySQL database values with Search and Replace DB</a> (this makes migrating sites a breeze)
+						 target="_blank">MySQL find/replace</a>
 			</li>
 			<li><a href="http://webgrind.pv"
-						 target="_blank">Profile your application with Webgrind</a></li>
+						 target="_blank">Webgrind - App profiling</a></li>
 			<li><a href="http://pv:8025"
-						 target="_blank">Collect email with MailHog</a>
+						 target="_blank">MailHog - Collects email / mocks SMTP</a>
 			</li>
 		</ul>
 	</div>
@@ -63,7 +65,7 @@
 	<div class="col-md-6">
 
 
-		<h2>Development Sites</h2>
+		<h2>WordPress<sup>&trade;</sup> Development Sites</h2>
 
 		<ul>
 			<li><a href="http://core.wordpress.pv"
@@ -83,8 +85,13 @@
 
 		<h2>About Primary Vagrant</h2>
 		<ul>
+			<li><a href="https://github.com/CircleTree/Primary-Vagrant/"
+						 target="_blank">View the Circle Tree Primary Vagrant Project on GitHub</a>
+			</li>
 			<li><a href="https://github.com/ChrisWiegman/Primary-Vagrant"
-						 target="_blank">View the Primary Vagrant Project on GitHub</a></li>
+						 target="_blank">
+					<span class="text text-muted">(fork of)</span>
+					Primary Vagrant</a></li>
 		</ul>
 		<h3 style="text-align:center;line-height:2;"><a target="_blank"
 																										style="text-decoration:none;font-size:10px;color:#666"
