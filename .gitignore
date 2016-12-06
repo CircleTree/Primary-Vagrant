@@ -11,3 +11,7 @@
 # Ignore changes made to sites and plugins
 default-sites
 user-data
+
+#Track our customisations
+!default-sites/pv/custom
+!default-sites/pv/custom/index.php
