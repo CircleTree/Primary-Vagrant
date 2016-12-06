@@ -11,6 +11,7 @@ class { '::php':
     mbstring     => { },
     mcrypt       => { },
     redis        => { },
+    zip          => { },
     xdebug       => {
       zend            => true,
       provider        => 'pecl',
