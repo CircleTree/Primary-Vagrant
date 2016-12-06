@@ -3,7 +3,7 @@
 vagrant_dir = File.expand_path(File.dirname(__FILE__))
 
 Vagrant.configure("2") do |root|
-	root.vm.define 'Primary Vagrant' do |config|
+	root.vm.define 'PV Part Deux' do |config|
 
 		# Store the current version of Vagrant for use in conditionals when dealing
 		# with possible backward compatible issues.
@@ -68,7 +68,7 @@ Vagrant.configure("2") do |root|
 		config.vm.provider :virtualbox do |v|
 			v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 			v.customize ["modifyvm", :id, "--memory", 1024]
-			v.customize ["modifyvm", :id, "--name", "Primary Vagrant"]
+			v.customize ["modifyvm", :id, "--name", "PV Part Deux"]
 			v.customize ["modifyvm", :id, "--cpus", 1]
 			v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
 
