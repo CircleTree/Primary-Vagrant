@@ -1,3 +1,6 @@
+<?php if (isset($_GET['info'])) :?>
+	<?php phpinfo(); exit;?>
+<?php endif;?>
 <html>
 <head>
 	<title>Primary Vagrant</title>
@@ -16,6 +19,7 @@
 <h2>Primary Vagrant Tools</h2>
 
 <ul>
+	<li><a href="?info">PHPInfo()</a></li>
 	<li><a href="http://phpmyadmin.pv" target="_blank">Manage MySQL with phpMyAdmin</a></li>
 	<li><a href="http://replacedb.pv" target="_blank">Easily Search and Replace MySQL database values with Search and Replace DB</a> (this makes migrating sites a breeze)</li>
 	<li><a href="http://webgrind.pv" target="_blank">Profile your application with Webgrind</a></li>
