@@ -25,9 +25,9 @@
 <body>
 <div class="container">
 
-		<div class="jumbotron">
-			<h2>Welcome to Circle Tree's Primary Vagrant</h2>
-		</div>
+	<div class="jumbotron">
+		<h2>Welcome to Circle Tree's Primary Vagrant</h2>
+	</div>
 
 	<div class="col-md-12">
 
@@ -35,6 +35,33 @@
 		<ul>
 			<li>
 				<a href="http://mycircletree.pv/" target="_blank">mycircletree.pv</a>
+				<ul>
+					<li>
+						<b>WordPress</b>
+						<ul>
+							<li><a href="http://mycircletree.pv/"
+										 target="_blank">Public Site</a></li>
+							<li><a href="http://mycircletree.pv/wp/wp-admin"
+										 target="_blank">WordPress Admin</a></li>
+						</ul>
+					</li>
+					<li><b>WHMCS</b>
+						<ul>
+							<li><a href="http://mycircletree.pv/client-area/"
+										 target="_blank">WHMCS Client Area</a></li>
+							<li><a href="http://mycircletree.pv/client-area/admin"
+										 target="_blank">WHMCS Admin</a>
+								<b>Addons</b>
+								<ul>
+									<li>
+										<a href="http://mycircletree.pv/client-area/admin/addonomodules.php?module=enom_pro"
+											 target="_blank">eNom PRO</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</li>
 			<li>
 				<a href="http://ccu.pv/" target="_blank">ccu.pv</a>
