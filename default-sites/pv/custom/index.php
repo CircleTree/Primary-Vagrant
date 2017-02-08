@@ -64,7 +64,10 @@
 				</ul>
 			</li>
 			<li>
-				<a href="http://ccu.pv/" target="_blank">ccu.pv</a>
+				<a href="http://ccu.pv/" target="_blank">Christ Church Unity Orlando - ccu.pv</a>
+			</li>
+			<li>
+				<a href="http://ablcs.pv/" target="_blank">A Better Life Counseling Services - ablcs.pv</a>
 			</li>
 
 		</ul>
